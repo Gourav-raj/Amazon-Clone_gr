@@ -1,0 +1,26 @@
+.carousel-item-main{
+  width: 18vw;
+  height: 22vw;
+  padding: 0vw 1vw 0vw 1vw;
+  background: white;
+  margin: 1vw 0.3vw 1vw 0.3vw;
+
+}
+.carousel-item-main:nth-child(1){
+  margin-left: 33vw;
+}
+
+/*.carousel-item-image{
+  width: 15vw;
+}*/
+.carousel-item-main h1{
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+.carousel-item-main div{
+  width: 100%;
+  height: 0.35vw;
+}
+.carousel-item-main p{
+  font-size: 1vw;
+}

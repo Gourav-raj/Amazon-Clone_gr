@@ -1,0 +1,173 @@
+.footer-container{
+    width: 100%;
+    height: 90vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.back-to-top {
+    width: 100%;
+    /* height: 40px; */
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.back-to-top-btn {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    line-height: 19px;
+    font-size: 11px;
+}
+.links-top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: #232f3e;
+    height: 40vh;
+    width: 100%;
+}
+.footer-table {
+    /* background-color: orchid; */
+}
+.footer-table td {
+    vertical-align: top;
+}
+.links-top-title {
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: left;
+    padding: 4px 10px;
+    white-space: nowrap;
+
+}
+.links-top {
+    color: #ccc;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer-link-list {
+    /* background-color: purple;
+    border: 1px solid white; */
+    padding: 0;
+    margin: 0;
+}
+.footer-link{
+    text-align: left;
+    list-style: none;
+    white-space: nowrap;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 10px;
+    line-height: 120%;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.footer-link a:hover {
+    text-decoration: underline;
+}
+.footer-link-spacing {
+    width: 40px;
+    /* background-color: greenyellow; */
+}
+.bottom-footer-top {
+    border: none;
+    border-top: .5px solid #3a4553;
+    background-color: #232f3e;
+    /* height: 300px;
+    width: 100%; */
+}
+
+.amz-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.amz-logo {
+    padding: 0 60px 0 0;
+}
+
+.language-btn {
+    border-radius: 3px;
+    border: 1px solid #848688;
+    font-size: 11px;
+    padding: 6px;
+    margin: 0 4px;
+
+}
+
+.country-btn {
+    border-radius: 3px;
+    border: 1px solid #848688;
+    font-size: 11px;
+    padding: 6px;
+    margin: 0 4px;
+}
+.fa-globe {
+    font-size: 12px;
+}
+.links-bottom-container {
+    background-color: #131a22;
+    width: 100%;
+    /* height: 100%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.bottom-table {
+    /* max-width: 700px; */
+    max-width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.bottom-links {
+    text-align: left;
+    line-height: 60%;
+    /* color: white; */
+}
+.bottom-link {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 700;
+    font-size: 10px;
+    
+    white-space: nowrap;
+    padding: 0px;
+}
+.bottom-link:hover {
+    text-decoration: underline;
+}
+.bottom-link span {
+    padding:0;
+    font-weight: normal;
+    font-size: 9px;
+    color: #999;
+    /* line-height: 115%; */
+}
+.bottom-table-height-spacing{
+    height: 4px;
+}
+.bottom-table-spacing {
+    min-width: 20px;
+}
+.copy-right {
+    margin: auto;
+    width: 700px;
+    padding: 30px 0 30px;
+    font-size: 10px;
+    color: #ddd;
+    font-weight: 700;
+}
+.copy-right-span {
+    color: #999;
+}

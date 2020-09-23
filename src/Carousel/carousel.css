@@ -1,0 +1,41 @@
+.carousel-flex{
+  display: flex;
+  justify-content: center;
+}
+.carousel-and-arrows{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.carousel-items{
+  position: relative;
+  overflow-x: scroll;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60vw;
+  background: #EAEDED;
+  /*height: 10vw;*/
+}
+.item{
+  background: red;
+  margin: 0vw 2vw;
+  width: 10vw;
+  height: 8vw;
+  flex: 0 0 auto;
+}
+.arrow{
+  z-index: 500;
+  position: absolute;
+  top: 26%;
+  height: 10vw;
+}
+
+.left-arrow{
+  left: 0vw;
+
+}
+.right-arrow{
+  right: -0.2vw;
+  transform: scaleX(-1);
+}
